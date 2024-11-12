@@ -59,3 +59,6 @@ console.log(convertedHtmlCollection);
 
   alert(`H2 tag count: ${headings.length}`);
 });
+// returns htmlCollection
+let classNameExampleItems=document.getElementsByClassName("bg-light")
+console.log(classNameExampleItems);
