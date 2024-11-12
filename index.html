@@ -1,46 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
     <section>
-    <p id="getElementByIdParagraph"></p>
-    <!-- <p id="getElementByIdParagraph"></p> -->
-    <input type="radio" name="language" value="JavaScript">
-    <label for="">input1</label>
-    <input type="radio" name="language" value="JavaScript">
-    <label for="">input2</label>
-    <br/>
-</section>
+      <p id="getElementByIdParagraph"></p>
+      <!-- <p id="getElementByIdParagraph"></p> -->
+      <input type="radio" name="language" value="JavaScript" />
+      <label for="">input1</label>
+      <input type="radio" name="language" value="JavaScript" />
+      <label for="">input2</label>
+      <br />
+    </section>
     <section>
-    <p>JavaScript getElementsByName Demo</p>
-    <p>Please rate us!</p>
-    <div>
+      <p>JavaScript getElementsByName Demo</p>
+      <p>Please rate us!</p>
+      <div>
         <label for="very-poor">
-            <input type="radio" name="rate" value="1" id="very-poor"> 1
+          <input type="radio" name="rate" value="1" id="very-poor" /> 1
         </label>
         <label for="poor">
-            <input type="radio" name="rate" value="2" id="poor"> 2
+          <input type="radio" name="rate" value="2" id="poor" /> 2
         </label>
         <label for="ok">
-            <input type="radio" name="rate" value="3" id="ok"> 3
+          <input type="radio" name="rate" value="3" id="ok" /> 3
         </label>
         <label for="good">
-            <input type="radio" name="rate" value="4"> 4
+          <input type="radio" name="rate" value="4" /> 4
         </label>
         <label for="excellent">
-            <input type="radio" name="rate" value="5" id="excellent"> 5
+          <input type="radio" name="rate" value="5" id="excellent" /> 5
         </label>
-    </div>
-    <div>
+      </div>
+      <div>
         <button id="btnRate">Submit</button>
-    </div>
-    <p id="output"></p>
-</section>
+      </div>
+      <p id="output"></p>
+    </section>
+    <section>
+      <h1>JavaScript getElementsByTagName() Demo</h1>
+      <h2>Heading h2-1</h2>
+      <p>Paragraph 1</p>
+      <h2>Heading h2-2</h2>
+      <p>Paragraph 2.</p>
+      <h2>Heading h2-3</h2>
+      <p>Paragraph.</p>
+      <button id="btnCount">Count h2</button>
+    </section>
     <script src="dom.js"></script>
-</body>
+  </body>
 </html>
